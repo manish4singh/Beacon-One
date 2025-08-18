@@ -27,7 +27,7 @@ html {
 }
 
 .container {
-  max-width: 1398px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
@@ -36,6 +36,27 @@ html {
 a {
   text-decoration: none !important;
 }
+
+li {
+  list-style: none;
+}
+
+
+/* User Defined Bootstrap CSS Class */
+
+.gap-45 {
+  gap: 45px;
+}
+
+.ms-33 {
+  margin-left: 33px;
+}
+
+.py-70 {
+  padding: 70px 0;
+}
+
+
 
 /* Header Section */
 
@@ -96,13 +117,6 @@ a {
   background-color: var(--get-in-color);
 }
 
-.gap-45 {
-  gap: 45px;
-}
-
-.ms-33 {
-  margin-left: 33px;
-}
 
 /* Banner Section */
 
@@ -183,6 +197,7 @@ a {
   max-width: 1140px;
   width: 100%;
   padding: 13px 15px 0;
+  margin: 0  !important;
 }
 
 .banner-content > figure > img {
@@ -202,6 +217,11 @@ a {
   padding-block: 78px 66px;
 }
 
+.properties-section-container {
+  max-width: 1140px;
+  width: 100%;
+}
+
 .main-heading {
   font-family: "SangBleu Sunrise", sans-serif;
   font-size: 50px;
@@ -213,7 +233,7 @@ a {
 
 .property-image-large {
   width: 100%;
-  height: 609px; /* Use height, not min-height */
+  max-height: 609px; /* Use height, not min-height */
   border-radius: 15px;
   margin-bottom: 20px;
 }
@@ -222,13 +242,12 @@ a {
   width: 100%;
   height: 100%;
   /* display: block; */
-  object-fit: cover; /* or 'cover' if you want it to fill and crop */
+  object-fit: contain; /* or 'cover' if you want it to fill and crop */
   border-radius: 15px;
 }
 
 .property-image-small {
   max-width: 100%;
-  height: 415px;
   border-radius: 15px;
   margin-bottom: 20px;
 }
@@ -237,7 +256,7 @@ a {
   width: 100%;
   height: 100%;
   /* display: block; */
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 15px;
 }
 
@@ -269,9 +288,7 @@ a {
   text-decoration: none;
 }
 
-.gap-10 {
-  gap: 101px !important;
-}
+
 
 /* Property Grid Section Custom Styles */
 .property-grid-section {
@@ -295,7 +312,7 @@ a {
 
 .build-card-img,
 .build-card-content {
-  max-width: 360px;
+  width: 100%;
   height: 356px;
   border-radius: 10px;
 }
@@ -361,7 +378,7 @@ a {
 
 .footer-floater {
   position: absolute;
-  top: -60px;
+  top: -70px;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
@@ -377,10 +394,11 @@ a {
   font-size: 50px;
   color: #ffffff;
   margin-bottom: 16px;
+  line-height: 0;
 }
 
 .footer-floater-logo {
-  width: 100px;
+  width: 100px; 
   height: 67px;
 }
 .footer-floater-logo > img {
@@ -398,6 +416,13 @@ a {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   text-decoration: none;
+}
+
+.btn-white1:hover {
+  background: #e5dce5;
+  color: #1f201c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(170, 106, 170, 0.2);
 }
 
 .footer-logo {
@@ -527,6 +552,10 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.social-media-icons{
+  max-width: 240px;
 }
 
 .social-media-icon1,

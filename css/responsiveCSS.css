@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 992px) {
   .nav-section {
     position: relative;
@@ -74,18 +75,44 @@
     margin: 0 auto !important;
   }
 
-  .footer-floater{
+  .footer-floater {
     padding: 20px;
-    
   }
 
-  .footer-floater h2{
-    font-size: 40px;
+  .footer-floater h2 {
+    font-size: 30px;
   }
 
-  
-  .footer-floater-logo{
+  .footer-floater-logo {
     display: none;
+  }
+   .property-grid-section .row {
+    margin: 40px 0;
+  }
+  .footer-add-links,
+.footer-quick-links,
+.footer-newsletter {
+  text-align: center;
+}
+  .footer-add-links > h3::after,
+  .footer-quick-links > h3::after,
+  .footer-newsletter > h3::after {
+    margin: 10px auto;
+    width: 50px;
+  }
+   .social-media-icons{
+    margin: 0 auto;
+  }
+
+  .description-text{
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .cta-button{
+    padding: 12px 20px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
 }
@@ -143,6 +170,12 @@
     margin: 10px auto;
     width: 50px;
   }
+
+ 
+  .footer-section {
+    padding-top: 30px;
+  }
+ 
 }
 
 @media screen and (max-width: 576px) {
@@ -181,11 +214,11 @@
     font-size: 40px;
   }
 
-  .footer-floater h2{
-    font-size: 25px;
+  .footer-floater h2 {
+    font-size: 16px;
   }
 
-  .btn-white1{
+  .btn-white1 {
     padding: 14px;
     font-size: 12px;
   }
