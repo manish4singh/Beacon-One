@@ -41,7 +41,6 @@ li {
   list-style: none;
 }
 
-
 /* User Defined Bootstrap CSS Class */
 
 .gap-45 {
@@ -55,8 +54,6 @@ li {
 .py-70 {
   padding: 70px 0;
 }
-
-
 
 /* Header Section */
 
@@ -104,19 +101,21 @@ li {
   background-color: var(--btn-color);
 }
 
-.nav-right > a {
+.nav-right > button {
   font-family: "DM Sans", sans-serif;
   padding: 16px 14px;
   background-color: var(--contact-btn-color);
   border-radius: 50px;
   color: var(--primary-color);
   display: inline-block;
+  border: none;
+  outline: none;
+  margin-left: 10px;
 }
 
 .nav-right > a:hover {
   background-color: var(--get-in-color);
 }
-
 
 /* Banner Section */
 
@@ -197,7 +196,7 @@ li {
   max-width: 1140px;
   width: 100%;
   padding: 13px 15px 0;
-  margin: 0  !important;
+  margin: 0 !important;
 }
 
 .banner-content > figure > img {
@@ -287,8 +286,6 @@ li {
   color: white;
   text-decoration: none;
 }
-
-
 
 /* Property Grid Section Custom Styles */
 .property-grid-section {
@@ -398,7 +395,7 @@ li {
 }
 
 .footer-floater-logo {
-  width: 100px; 
+  width: 100px;
   height: 67px;
 }
 .footer-floater-logo > img {
@@ -554,7 +551,7 @@ li {
   object-fit: contain;
 }
 
-.social-media-icons{
+.social-media-icons {
   max-width: 240px;
 }
 
@@ -575,4 +572,16 @@ li {
 .social-media-icon3 > i,
 .social-media-icon4 > i {
   color: #18212d;
+}
+
+.footer-bottom > p > a {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-bottom > p > a:hover {
+  color: #aa6aaa;
+  text-decoration: underline;
 }
