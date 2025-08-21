@@ -377,7 +377,6 @@ li {
   position: absolute;
   top: -70px;
   left: 50%;
-  right: 50%;
   transform: translateX(-50%);
   max-width: 945px;
   width: 100%;
