@@ -38,7 +38,7 @@ a {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
 }
 
 /* User Defined Bootstrap CSS Class */
