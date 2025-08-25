@@ -1,14 +1,4 @@
 @media screen and (max-width: 992px) {
-  .nav-section {
-    padding: 10px 40px;
-  }
-
-  .navbar-collapse {
-    padding: 15px 0;
-    background: var(--white-text-color);
-    text-align: center;
-  }
-
   .gap-45 {
     gap: 30px;
   }
