@@ -58,6 +58,10 @@ li {
 /* Header Section */
 
 .nav-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   padding: 10px 60px;
 }
 
